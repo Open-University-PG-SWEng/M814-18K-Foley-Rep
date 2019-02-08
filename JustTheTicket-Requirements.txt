@@ -5,3 +5,15 @@ Rationale:
 Originator:
 Comments: [M814-ModuleChair] Copy this template below to add new requirements.
 
+REQ-ID: JS01
+Description: The product shall support placing tickets in a holding status.
+Type: Functional
+Rationale: To prevent tickets from going back to general sale when the ticket is returned but before the daily run of the re-allocation process.
+Originator: Polly Gray (Domestic Ticket Sales)
+
+REQ-ID: JS02
+Description: The product shall record the reason for return.
+Type: Functional
+Rationale: To provide the source of analysis of the patterns, and flag potential fraud.
+Originator: Polly Gray (Domestic Ticket Sales)
+
