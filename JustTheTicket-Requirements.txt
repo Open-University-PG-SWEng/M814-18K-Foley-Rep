@@ -40,3 +40,15 @@ Description: The system shall have the ability to allocate returned tickets (fro
 Type: Functional
 Rationale: There maybe 2 tickets available, but 3 are needed for the first customer in line for returned tickets. There needs to be a logical method to reallocate the tickets.
 Originator: Polly Gray (Domestic Ticket Sales)
+
+REQ-ID: MVR-FR01
+Description: The product shall check the customer details of the ticket.
+Type: Functional
+Rationale: To insure that the ticket was purchased by the customer that wants to return it. This will help prevent a ticket blackmarket.
+Originator: Polly Gray (Domestic Ticket Sales)
+
+REQ-ID: MVR-FR02
+Description: The product shall check the event date of the ticket.
+Type: Functional
+Rationale: To insure that the ticket can still be reallocated to the waiting list.
+Originator: Polly Gray (Domestic Ticket Sales)
