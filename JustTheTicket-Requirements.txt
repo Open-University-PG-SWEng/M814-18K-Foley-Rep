@@ -17,3 +17,15 @@ Type: Functional
 Rationale: To provide the source of analysis of the patterns, and flag potential fraud.
 Originator: Polly Gray (Domestic Ticket Sales)
 
+REQ-ID: RP01	
+Description:The product will determine if a refund is due for the return ticket
+Type: Functional
+Rationale: A ticket may be return on the day of the event or after the event and would not be due a refund even if not used
+Originator: Polly Gray (Domestic Ticket Sales)
+
+REQ-ID: RP01
+Description: The product will calculate the total amount to be refunded
+Type: Functional
+Rationale: The price of the ticket may very	between events and a handling charge may be applied
+Originator:Polly Gray (Domestic Ticket Sales)
+
