@@ -33,7 +33,7 @@ REQ-ID: WH01
 Description: The system shall display the inventory of tickets purchased by a customer.
 Type: Functional
 Rationale: Provides the ability for the customer to review their inventory and initiate a return of the ticket if needed.
-Originator: Thomas Shelby (Business Development)
+Originator: Polly Gray (Domestic Ticket Sales)
 
 REQ-ID: WH02
 Description: The system shall have the ability to allocate returned tickets (from the pool of returned tickets) to customers in a waiting list in an intelligent manner.
