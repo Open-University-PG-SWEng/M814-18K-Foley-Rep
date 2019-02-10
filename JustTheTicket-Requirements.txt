@@ -52,3 +52,15 @@ Description: The product shall check the event date of the ticket.
 Type: Functional
 Rationale: To insure that the ticket can still be reallocated to the waiting list.
 Originator: Polly Gray (Domestic Ticket Sales)
+
+REQ-ID: JC01
+Description: The product shall display booked tickets by customer.
+Type: Functional
+Rationale: To allow the customer to view their currently booked tickets and to select which ones to return.
+Originator: Polly Gray (Domestic Ticket Sales)
+
+REQ-ID: JC02
+Description: The product shall request a refund from the existing payment system for a returned ticket.
+Type: Functional
+Rationale: To provide the customer with a refund for their returned ticket.
+Originator: Polly Gray (Domestic Ticket Sales)
