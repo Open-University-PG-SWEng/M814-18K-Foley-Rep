@@ -64,3 +64,15 @@ Description: The product shall request a refund from the existing payment system
 Type: Functional
 Rationale: To provide the customer with a refund for their returned ticket.
 Originator: Polly Gray (Domestic Ticket Sales)
+
+REQ-ID: AR01
+Description: The product shall accept request that the ticket owner wants to return the purchased ticket. 
+Type: Functional 
+Rationale: To be able for customer to return tickets they can not use.
+Originator:  Polly Gray (Domestic Ticket Sales) 
+
+REQ-ID: AR02
+Description:  The product shall verify the ticket that will be returned still are valid.
+Type: Functional 
+Rationale: To ensure that the reimbursement goes back to the correct person.
+Originator:  Polly Gray (Domestic Ticket Sales) 
