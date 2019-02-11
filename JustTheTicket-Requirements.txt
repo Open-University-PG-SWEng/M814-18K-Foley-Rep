@@ -76,3 +76,17 @@ Description:  The product shall verify the ticket that will be returned still ar
 Type: Functional 
 Rationale: To ensure that the reimbursement goes back to the correct person.
 Originator:  Polly Gray (Domestic Ticket Sales) 
+
+REQ-ID: 	MG001
+Description: 	The system shall allow the customer to enter a reason for returning a ticket.
+Type:		Functional
+Rationale: 	To detect any patterns that might be emerging to help protect the Games from fraud. 
+		To understand the reasons for return.
+Originator: 	Polly Gray (Domestic Ticket Sales)
+
+REQ-ID:		MG002 
+Description: 	The system shall make return tickets available for purchase
+Type:		Functional
+Rationale: 	To ensure seats that become available are managed in a consistent manner
+Originator: 	Polly Gray (Domestic Ticket Sales)
+
