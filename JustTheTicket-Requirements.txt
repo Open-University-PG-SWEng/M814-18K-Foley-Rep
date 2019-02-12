@@ -101,3 +101,15 @@ Description: 	The product shall return tickets to the ticket return database.
 Type:		Functional
 Rationale: 	To enable the reallocation of tickets to other potential customers.  
 Originator: 	Polly Gray (Domestic Ticket Sales)
+
+REQ-ID: KayeJ01
+Description:  The product shall verify the event date on the ticket being returned
+Type: Functional 
+Rationale: To ensure the returned ticket is still for a valid event date 
+Originator:  Polly Gray (Domestic ticket sales)
+
+REQ-ID: KayeJ02
+Description:  The product shall verify the customer credentials
+Type: Functional 
+Rationale: To ensure the returned ticket was allocated to the customer and aid with refunds on the tickets
+Originator:  Polly Gray (Domestic ticket sales)
