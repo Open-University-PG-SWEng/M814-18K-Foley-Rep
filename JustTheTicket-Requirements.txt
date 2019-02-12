@@ -90,3 +90,14 @@ Type:		Functional
 Rationale: 	To ensure seats that become available are managed in a consistent manner
 Originator: 	Polly Gray (Domestic Ticket Sales)
 
+REQ-ID:		KarenJ01
+Description: 	The product shall retrieve the booking.
+Type:		Functional
+Rationale: 	To enable customers to return unwanted tickets online.
+Originator: 	Polly Gray (Domestic Ticket Sales)
+
+REQ-ID:		KarenJ02
+Description: 	The product shall return tickets to the ticket return database.
+Type:		Functional
+Rationale: 	To enable the reallocation of tickets to other potential customers.  
+Originator: 	Polly Gray (Domestic Ticket Sales)
