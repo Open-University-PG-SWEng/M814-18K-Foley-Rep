@@ -113,3 +113,15 @@ Description:  The product shall verify the customer credentials
 Type: Functional 
 Rationale: To ensure the returned ticket was allocated to the customer and aid with refunds on the tickets
 Originator:  Polly Gray (Domestic ticket sales)
+
+REQ-ID: PS01
+Description: The product shall add the ticket to a list of returned tickets to be allocated.
+Type: Functional
+Rationale: To ensure the returned ticket is reallocated with the 24 hourly reallocation cycle.
+Originator: Polly Gray (Domestic ticket sales)
+
+REQ-ID: PS02
+Description: The product shall disconnect the booking from the customer.
+Type: Functional
+Rationale: To ensure the reservation is taken from the customer and made available for a new customer.
+Originator: Polly Gray (Domestic ticket sales)
