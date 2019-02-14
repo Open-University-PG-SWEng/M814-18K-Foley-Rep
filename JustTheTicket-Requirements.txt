@@ -125,3 +125,15 @@ Description: The product shall disconnect the booking from the customer.
 Type: Functional
 Rationale: To ensure the reservation is taken from the customer and made available for a new customer.
 Originator: Polly Gray (Domestic ticket sales)
+
+REQ-ID: CH01
+Description: The system should ensure the ticket has not been used.
+Type: Functional
+Rationale: To ensure that the ticket being returned has not already been used.
+Originator: Polly Gray (Domestic Ticket Sales)
+
+REQ-ID: CH02
+Description: The product should keep a record of all customers assigned to a ticket.
+Type: Functional
+Rationale: To allow the user to see that the ticket was returned under their purchases.
+Originator: Polly Gray (Domestic Ticket Sales)
