@@ -137,3 +137,15 @@ Description: The product should keep a record of all customers assigned to a tic
 Type: Functional
 Rationale: To allow the user to see that the ticket was returned under their purchases.
 Originator: Polly Gray (Domestic Ticket Sales)
+
+REQ-ID: PB1
+Description: The system shall allow the customer to input and submit their login credentials for verification.
+Type: Functional
+Rationale: Identity of a customer needs to be verified to help with further processing of a ticket return request.
+Originator: Polly Gray (Domestic Ticket Sales)
+
+REQ-ID: PB2
+Description: The system shall allow the customer to create a ticket return request.
+Type: Functional
+Rationale: Ticket returns need to be handled in a form of delayed requests to allow for fraud detection analysis on a daily basis.
+Originator: Polly Gray (Domestic Ticket Sales)
