@@ -149,3 +149,16 @@ Description: The system shall allow the customer to create a ticket return reque
 Type: Functional
 Rationale: Ticket returns need to be handled in a form of delayed requests to allow for fraud detection analysis on a daily basis.
 Originator: Polly Gray (Domestic Ticket Sales)
+
+REQ-ID: SM01
+Description: The system will provide a 'cancel by' date at the time of purchase of a ticket
+Type: Functional
+Rationale: This ensures customers are aware of the last day for cancelling tickets to get a refund 
+Originator: Polly Gray (Domestic Ticket Sales)
+
+REQ-ID: SM02
+Description: The system shall ensure returned tickets are held in a separate inventory before release into real-time inventory
+Type: Functional
+Rationale: This ensures waiting-list customers get first preference during reallocation of returned tickets
+Originator: Polly Gray (Domestic Ticket Sales)
+
