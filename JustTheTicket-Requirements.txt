@@ -162,3 +162,14 @@ Type: Functional
 Rationale: This ensures waiting-list customers get first preference during reallocation of returned tickets
 Originator: Polly Gray (Domestic Ticket Sales)
 
+REQ-ID: LCM01
+Description: The system shall provide interfaces for the review of ticket sales
+Type: Functional
+Rationale: The organisers want to be comfortable they understand the reasons for returns and detect any patterns that might be emerging to help protect the Games from fraud
+Originator: Polly Gray (Domestic ticket sales)
+
+REQ-ID: LCM02
+Description: The system shall add returned tickets to the pool of tickets available for sale once a day
+Type: Functional
+Rationale: This will ensure that any seats that have become available will be allocated to those on the waiting list in a manageable and consistent manner
+Originator: Polly Gray (Domestic ticket sales)
