@@ -53,12 +53,6 @@ Type: Functional
 Rationale: To insure that the ticket can still be reallocated to the waiting list.
 Originator: Polly Gray (Domestic Ticket Sales)
 
-REQ-ID: JC01
-Description: The product shall display booked tickets by customer.
-Type: Functional
-Rationale: To allow the customer to view their currently booked tickets and to select which ones to return.
-Originator: Polly Gray (Domestic Ticket Sales)
-
 REQ-ID: JC02
 Description: The product shall request a refund from the existing payment system for a returned ticket.
 Type: Functional
@@ -69,12 +63,6 @@ REQ-ID: AR01
 Description: The product shall accept request that the ticket owner wants to return the purchased ticket. 
 Type: Functional 
 Rationale: To be able for customer to return tickets they can not use.
-Originator:  Polly Gray (Domestic Ticket Sales) 
-
-REQ-ID: AR02
-Description:  The product shall verify the ticket that will be returned still are valid.
-Type: Functional 
-Rationale: To ensure that the reimbursement goes back to the correct person.
 Originator:  Polly Gray (Domestic Ticket Sales) 
 
 REQ-ID: 	MG001
@@ -108,12 +96,6 @@ Type: Functional
 Rationale: To ensure the returned ticket is still for a valid event date 
 Originator:  Polly Gray (Domestic ticket sales)
 
-REQ-ID: KayeJ02
-Description:  The product shall verify the customer credentials
-Type: Functional 
-Rationale: To ensure the returned ticket was allocated to the customer and aid with refunds on the tickets
-Originator:  Polly Gray (Domestic ticket sales)
-
 REQ-ID: PS01
 Description: The product shall add the ticket to a list of returned tickets to be allocated.
 Type: Functional
@@ -130,12 +112,6 @@ REQ-ID: CH01
 Description: The system should ensure the ticket has not been used.
 Type: Functional
 Rationale: To ensure that the ticket being returned has not already been used.
-Originator: Polly Gray (Domestic Ticket Sales)
-
-REQ-ID: CH02
-Description: The product should keep a record of all customers assigned to a ticket.
-Type: Functional
-Rationale: To allow the user to see that the ticket was returned under their purchases.
 Originator: Polly Gray (Domestic Ticket Sales)
 
 REQ-ID: PB1
