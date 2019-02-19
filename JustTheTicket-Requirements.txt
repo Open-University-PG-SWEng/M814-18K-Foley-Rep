@@ -1,164 +1,60 @@
-REQ-ID:
-Description:
-Type:
-Rationale:
-Originator:
-Comments: [M814-ModuleChair] Copy this template below to add new requirements.
 
-REQ-ID: JS01
-Description: The product shall support placing tickets in a holding status.
-Type: Functional
-Rationale: To prevent tickets from going back to general sale when the ticket is returned but before the daily run of the re-allocation process.
-Originator: Polly Gray (Domestic Ticket Sales)
-
-REQ-ID: JS02
-Description: The product shall record the reason for return.
-Type: Functional
-Rationale: To provide the source of analysis of the patterns, and flag potential fraud.
-Originator: Polly Gray (Domestic Ticket Sales)
-
-REQ-ID: RP01
-Description:The product will determine if a refund is due for the return ticket
-Type: Functional
-Rationale: A ticket may be return on the day of the event or after the event and would not be due a refund even if not used
-Originator: Polly Gray (Domestic Ticket Sales)
-
-REQ-ID: RP01
-Description: The product will calculate the total amount to be refunded
-Type: Functional
-Rationale: The price of the ticket may very	between events and a handling charge may be applied
-Originator:Polly Gray (Domestic Ticket Sales)
-
-REQ-ID: WH01
-Description: The system shall display the inventory of tickets purchased by a customer.
-Type: Functional
-Rationale: Provides the ability for the customer to review their inventory and initiate a return of the ticket if needed.
-Originator: Polly Gray (Domestic Ticket Sales)
-
-REQ-ID: WH02
-Description: The system shall have the ability to allocate returned tickets (from the pool of returned tickets) to customers in a waiting list in an intelligent manner.
-Type: Functional
-Rationale: There maybe 2 tickets available, but 3 are needed for the first customer in line for returned tickets. There needs to be a logical method to reallocate the tickets.
-Originator: Polly Gray (Domestic Ticket Sales)
-
-REQ-ID: MVR-FR01
-Description: The product shall check the customer details of the ticket.
-Type: Functional
-Rationale: To insure that the ticket was purchased by the customer that wants to return it. This will help prevent a ticket blackmarket.
-Originator: Polly Gray (Domestic Ticket Sales)
-
-REQ-ID: MVR-FR02
-Description: The product shall check the event date of the ticket.
-Type: Functional
-Rationale: To insure that the ticket can still be reallocated to the waiting list.
-Originator: Polly Gray (Domestic Ticket Sales)
-
-REQ-ID: JC01
-Description: The product shall display booked tickets by customer.
-Type: Functional
-Rationale: To allow the customer to view their currently booked tickets and to select which ones to return.
-Originator: Polly Gray (Domestic Ticket Sales)
-
-REQ-ID: JC02
-Description: The product shall request a refund from the existing payment system for a returned ticket.
-Type: Functional
-Rationale: To provide the customer with a refund for their returned ticket.
-Originator: Polly Gray (Domestic Ticket Sales)
-
-REQ-ID: AR01
-Description: The product shall accept request that the ticket owner wants to return the purchased ticket. 
-Type: Functional 
-Rationale: To be able for customer to return tickets they can not use.
-Originator:  Polly Gray (Domestic Ticket Sales) 
-
-REQ-ID: AR02
-Description:  The product shall verify the ticket that will be returned still are valid.
-Type: Functional 
-Rationale: To ensure that the reimbursement goes back to the correct person.
-Originator:  Polly Gray (Domestic Ticket Sales) 
-
-REQ-ID: 	MG001
-Description: 	The system shall allow the customer to enter a reason for returning a ticket.
-Type:		Functional
-Rationale: 	To detect any patterns that might be emerging to help protect the Games from fraud. 
-		To understand the reasons for return.
+REQ-ID:         PB1
+Description: 	The system shall allow the customer to input and submit their login credentials for verification.
+Type: 		    Functional
+Rationale: 	    Identity of a customer needs to be verified to help with further processing of a ticket return request.
 Originator: 	Polly Gray (Domestic Ticket Sales)
 
-REQ-ID:		MG002 
+REQ-ID: 	    JC01
+Description: 	The product shall display booked tickets by customer.
+Type: 		    Functional
+Rationale: 	    To allow the customer to view their currently booked tickets and to select which ones to return.
+Originator: 	Polly Gray (Domestic Ticket Sales)
+
+REQ-ID: 	    KayeJ01
+Description:  	The product shall verify the event date on the ticket being returned
+Type: 		    Functional
+Rationale: 	    To ensure the returned ticket is still for a valid event date
+Originator:  	Polly Gray (Domestic ticket sales)
+
+REQ-ID: 	    JS02
+Description: 	The product shall record the reason for return.
+Type: 		    Functional
+Rationale: 	    To provide the source of analysis of the patterns, and flag potential fraud.
+Originator: 	Polly Gray (Domestic Ticket Sales)
+
+REQ-ID: 	    AR01
+Description: 	The product shall accept request that the ticket owner wants to return the purchased ticket.
+Type: 		    Functional
+Rationale: 	    To be able for customer to return tickets they can not use.
+Originator:  	Polly Gray (Domestic Ticket Sales)
+
+REQ-ID: 	    RP01
+Description: 	The product will calculate the total amount to be refunded
+Type: 		    Functional
+Rationale: 	    The price of the ticket may very between events and a handling charge may be applied
+Originator:     Polly Gray (Domestic Ticket Sales)
+
+REQ-ID: 	    JC02
+Description: 	The product shall request a refund from the existing payment system for a returned ticket.
+Type: 		    Functional
+Rationale: 	    To provide the customer with a refund for their returned ticket.
+Originator: 	Polly Gray (Domestic Ticket Sales)
+
+REQ-ID:		    MG002
 Description: 	The system shall make return tickets available for purchase
-Type:		Functional
-Rationale: 	To ensure seats that become available are managed in a consistent manner
+Type:		    Functional
+Rationale: 	    To ensure seats that become available are managed in a consistent manner
 Originator: 	Polly Gray (Domestic Ticket Sales)
 
-REQ-ID:		KarenJ01
-Description: 	The product shall retrieve the booking.
-Type:		Functional
-Rationale: 	To enable customers to return unwanted tickets online.
+REQ-ID: 	    WH02
+Description: 	The system shall have the ability to allocate returned tickets (from the pool of returned tickets) to customers in a waiting list in an 		intelligent manner.
+Type: 		    Functional
+Rationale: 	    There maybe 2 tickets available, but 3 are needed for the first customer in line for returned tickets. There needs to be a logical method to 			reallocate the tickets.
 Originator: 	Polly Gray (Domestic Ticket Sales)
 
-REQ-ID:		KarenJ02
-Description: 	The product shall return tickets to the ticket return database.
-Type:		Functional
-Rationale: 	To enable the reallocation of tickets to other potential customers.  
-Originator: 	Polly Gray (Domestic Ticket Sales)
-
-REQ-ID: KayeJ01
-Description:  The product shall verify the event date on the ticket being returned
-Type: Functional 
-Rationale: To ensure the returned ticket is still for a valid event date 
-Originator:  Polly Gray (Domestic ticket sales)
-
-REQ-ID: KayeJ02
-Description:  The product shall verify the customer credentials
-Type: Functional 
-Rationale: To ensure the returned ticket was allocated to the customer and aid with refunds on the tickets
-Originator:  Polly Gray (Domestic ticket sales)
-
-REQ-ID: PS01
-Description: The product shall add the ticket to a list of returned tickets to be allocated.
-Type: Functional
-Rationale: To ensure the returned ticket is reallocated with the 24 hourly reallocation cycle.
-Originator: Polly Gray (Domestic ticket sales)
-
-REQ-ID: PS02
-Description: The product shall disconnect the booking from the customer.
-Type: Functional
-Rationale: To ensure the reservation is taken from the customer and made available for a new customer.
-Originator: Polly Gray (Domestic ticket sales)
-
-REQ-ID: CH01
-Description: The system should ensure the ticket has not been used.
-Type: Functional
-Rationale: To ensure that the ticket being returned has not already been used.
-Originator: Polly Gray (Domestic Ticket Sales)
-
-REQ-ID: CH02
-Description: The product should keep a record of all customers assigned to a ticket.
-Type: Functional
-Rationale: To allow the user to see that the ticket was returned under their purchases.
-Originator: Polly Gray (Domestic Ticket Sales)
-
-REQ-ID: PB1
-Description: The system shall allow the customer to input and submit their login credentials for verification.
-Type: Functional
-Rationale: Identity of a customer needs to be verified to help with further processing of a ticket return request.
-Originator: Polly Gray (Domestic Ticket Sales)
-
-REQ-ID: PB2
-Description: The system shall allow the customer to create a ticket return request.
-Type: Functional
-Rationale: Ticket returns need to be handled in a form of delayed requests to allow for fraud detection analysis on a daily basis.
-Originator: Polly Gray (Domestic Ticket Sales)
-
-REQ-ID: SM01
-Description: The system will provide a 'cancel by' date at the time of purchase of a ticket
-Type: Functional
-Rationale: This ensures customers are aware of the last day for cancelling tickets to get a refund 
-Originator: Polly Gray (Domestic Ticket Sales)
-
-REQ-ID: SM02
-Description: The system shall ensure returned tickets are held in a separate inventory before release into real-time inventory
-Type: Functional
-Rationale: This ensures waiting-list customers get first preference during reallocation of returned tickets
-Originator: Polly Gray (Domestic Ticket Sales)
-
+REQ-ID: 	    PS02
+Description: 	The product shall disconnect the booking from the customer.
+Type: 		    Functional
+Rationale: 	    To ensure the reservation is taken from the customer and made available for a new customer.
+Originator: 	Polly Gray (Domestic ticket sales)
