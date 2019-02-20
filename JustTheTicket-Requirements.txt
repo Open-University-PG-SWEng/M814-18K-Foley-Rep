@@ -173,3 +173,15 @@ Description: The system shall add returned tickets to the pool of tickets availa
 Type: Functional
 Rationale: This will ensure that any seats that have become available will be allocated to those on the waiting list in a manageable and consistent manner
 Originator: Polly Gray (Domestic ticket sales)
+
+REQ-ID: GD01
+Description: The system shall refund a returned ticket's payment back to the original payment method used.
+Type: Functional
+Rationale: To prevent fraudulent actions whereby a fraudster attempts to gain money from a lost or stolen ticket.
+Originator: Polly Gray (Domestic Ticket Sales)
+
+REQ-ID: GD02
+Description: The system shall provide means of reserving tickets without the need for payment.
+Type: Functional
+Rationale: To protect seats for sports officials from Commonwealth countries and their families.
+Originator: Thomas Shelby (Business Development)
