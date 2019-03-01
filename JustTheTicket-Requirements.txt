@@ -185,3 +185,15 @@ Description: The system shall provide means of reserving tickets without the nee
 Type: Functional
 Rationale: To protect seats for sports officials from Commonwealth countries and their families.
 Originator: Thomas Shelby (Business Development)
+
+REQ-ID: RS01
+Description: The system shall validate the reason for the return
+Type: Functional
+Rationale: For the purposes of fraud detection the ticket return should pass through checks to ensure that all existing critera are met before any refund and reallocation is processed
+Originator: Polly Gray (Domestic Ticket Sales)
+
+REQ-ID: RS02
+Description: The system should invalidate the ticket when returned
+Type: Functional
+Rationale: In order for the ticket to no longer be available for use it should clearly be invalidated (confirmation sent to original purchaser that electronic ticket/paper ticket is invalidated) and any electronic ticket should update to show it is no longer valid
+Originator: Polly Gray (Domestic Ticket Sales)
