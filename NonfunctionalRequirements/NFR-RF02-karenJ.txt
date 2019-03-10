@@ -1,0 +1,15 @@
+REQ-ID: 
+Description: 
+Type:
+Rationale:
+Fit Criterion:
+Originator:
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+
+REQ-ID: NFR-RF02-karenJ
+Description: The selection of the event shall be acknowledged quickly by the system.
+Type: 12
+Rationale: To initiate the return enabling the users to proceed to the next stage in the returns process (ticket selection), without delay.
+Fit Criterion: The response time of the system should take no longer than 0.75 seconds for 95 percent of users and no longer than 1 second for the remainder.
+Originator: Karen Jakes (Project Manager)
+Comments: [karenJ] Created new NFR for functional requirement RF02.
