@@ -1,0 +1,7 @@
+REQ-ID: NFR-RF01-JS
+Description: The product shall make it easy for an average customer to initiate the return of tickets.
+Type: 11 Usability and Humanity
+Rationale: To encourage customers who no longer require the tickets to return them with ease, to make sure the tickets can be promptly re-allocated and prevent empty stadiums.
+Fit Criterion: Ninety-five percent of the representative sample in the focus group shall successfully initiate the ticket return process from the inventory, and seventy-five percent of those who are successful shall initiate the process within 60 seconds from when the inventory screen finishes loading.
+Originator: Joanna Stacey (Project Manager)
+Comments: [JS] Created a non-functional requirement related to RF01.
