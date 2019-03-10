@@ -1,0 +1,7 @@
+REQ-ID: NFR-RF09-PS
+Description: The product shall collect information about the reasons for ticket returns and supply it in an easy to understand format.
+Type: Non-Functional
+Rationale: To make it easy for the client to identify patterns in ticket return reasons.
+Fit Criterion: Ninety percent of staff using this feature can analyse the day's results and determine any patterns in 30 minutes or less.
+Originator: Polly Gray (Domestic Ticket Sales)
+Comments:
