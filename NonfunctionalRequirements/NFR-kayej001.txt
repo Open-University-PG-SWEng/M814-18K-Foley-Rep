@@ -1,0 +1,7 @@
+REQ-ID: Kayej001
+Description: The reason for return will be easy to document 
+Type: Non-functional 
+Rationale: the user will need to be given options to make it easy to choose why the ticket is being returned 
+Fit Criterion: the user will able to pick a reason for return in less than 90 seconds 
+Originator: Polly Gray (Domestic Ticket Sales)
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
