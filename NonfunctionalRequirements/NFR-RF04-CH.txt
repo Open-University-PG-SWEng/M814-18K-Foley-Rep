@@ -1,0 +1,7 @@
+REQ-ID: NFR-RF04-CH
+Description: The product shall collate and store reasons behind the returns of multiple tickets and provide the infomration in an easy to read format
+Type: Non-Functional
+Rationale: To allow the client to proces patterns or trends for reasons behind multiple ticket-returns.
+Fit Criterion: Eighty five percent of the products staff using this feature will be able to analyze the day/week and monthly statitics, to outline potential patterns.
+Originator: Christopher Hayes (Project Manager)
+Comments: [CH] Created new NFR for functional requirement RF04.
