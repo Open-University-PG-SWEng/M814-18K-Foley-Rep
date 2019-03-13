@@ -1,0 +1,8 @@
+REQ-ID:NFR-JC02-JC
+Description:The product shall ensure that the customer’s credit and debit card details are secure, encrypted and and are kept confidential. 
+Type: Non-Functional
+Rationale: To protect the customer’s data from unauthorised access and to protect from fraudulent transactions.
+Fit Criterion: There are no incidents where customer’s data security is compromised and customer data is always stored encrypted.
+Originator: Jonathan Comer (Project Manager)
+Comments: [JC] New non-functional requirement created for JC02.
+
