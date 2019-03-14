@@ -13,3 +13,5 @@ Rationale: To initiate the return enabling the users to proceed to the next stag
 Fit Criterion: The response time of the system should take no longer than 0.75 seconds for 95 percent of users and no longer than 1 second for the remainder.
 Originator: Karen Jakes (Project Manager)
 Comments: [karenJ] Created new NFR for functional requirement RF02.
+		  [PSHE] This is a fast fit criterion for a response time which is good for the user experience, however I think it could be more lenient
+		  as I believe it would be acceptable for users to wait 3-5 seconds between screens during the returns process.

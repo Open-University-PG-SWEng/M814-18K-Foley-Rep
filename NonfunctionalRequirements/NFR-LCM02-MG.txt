@@ -5,3 +5,5 @@ Rationale:	To ensure that seats that have become available are managed and alloc
 Fit Criterion:	80% of users with permission shall be able to access the reallocation program 
 Originator:	Polly Gray (Domestic ticket sales)
 Comments:	[MG] Assumption that 80% is an acceptable value for stakeholders to be satisfied that the 				functionality is working as expected.
+			[PSHE] 80% is quite a low acceptable value for access to the program - I think it should be higher as this feature should work a significant majority of the time,
+			perhaps 95%.
