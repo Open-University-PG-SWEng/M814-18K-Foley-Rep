@@ -1,0 +1,8 @@
+REQ-ID: NFR-RF12-WH
+Description: The system will provide an simple interface that allows customers to browse lists events based on category.
+Type: 11 (Usability and Humanity)
+Rationale: Users should be able to easily browse and locate specific events of interest based on broad sport categories, an easy to navigate interface will provide a better user experience and potentially increase ticket sales. 
+Fit Criterion: Average users should be able to navigate to event listings in less than two minutes, using the fewest clicks/interactions as possible.
+Originator: Weston Hinton
+
+Comments:
