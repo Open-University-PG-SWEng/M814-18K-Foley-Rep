@@ -5,3 +5,7 @@ Rationale: the user will need to be given options to make it easy to choose why 
 Fit Criterion: the user will able to pick a reason for return in less than 90 seconds 
 Originator: Polly Gray (Domestic Ticket Sales)
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+[JC] The original functional requirement is not stated in the filename which effects the traceability.
+[JC] For the fit criterion I believe that 90% of users should select a default return reason, with 10% creating their own reason in addition to the time limit. This assumes that the functionality exists for them to tailor their return reason. 
+
+
