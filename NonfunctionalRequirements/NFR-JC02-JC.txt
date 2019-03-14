@@ -5,4 +5,5 @@ Rationale: To protect the customer’s data from unauthorised access and to protec
 Fit Criterion: There are no incidents where customer’s data security is compromised and customer data is always stored encrypted.
 Originator: Jonathan Comer (Project Manager)
 Comments: [JC] New non-functional requirement created for JC02.
+Comments: [JS] I think this fit criterion is very difficult to measure - it's one of those cases when we'll know when it fails; if it's working - it may fail tomorrow. Maybe it would be a good idea to think of a few safeguards that can be verified, or results of a pen test.
 

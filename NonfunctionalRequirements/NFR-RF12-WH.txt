@@ -5,4 +5,4 @@ Rationale: Users should be able to easily browse and locate specific events of i
 Fit Criterion: Average users should be able to navigate to event listings in less than two minutes, using the fewest clicks/interactions as possible.
 Originator: Weston Hinton
 
-Comments:
+Comments: [JS] I think the phrase 'fewest clicks/interactions' needs to be made tangible/measurable, e.g. 3 clicks from main screen.

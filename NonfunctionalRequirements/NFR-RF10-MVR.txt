@@ -5,3 +5,4 @@ Rationale: The account registration is the first step the customers need to comp
 Fit Criterion: Nine out of ten customers shall be able to complete the account registration in less than five minutes, and the customer needs to be able to click on register within ten mouse clicks.
 Originator: Mark van Rooyen
 Comments: [MVR] New NFR added for FR-RF10
+Comments: [JS] First part of the fit criterion sounds reasonable. However, with regards to the latter part - do you mean to initiate registration within ten clicks, or to complete the registration in ten clicks? If it is to initiate the registration, ten clicks seems excessive and the user is likely to get frustrated and give up - I would be inclined to limit it to 2 or 3. If it's about the completion of the registration - then 10 sounds reasonable.
