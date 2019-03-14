@@ -7,3 +7,4 @@ Originator:	Polly Gray (Domestic ticket sales)
 Comments:	[MG] Assumption that 80% is an acceptable value for stakeholders to be satisfied that the 				functionality is working as expected.
 			[PSHE] 80% is quite a low acceptable value for access to the program - I think it should be higher as this feature should work a significant majority of the time,
 			perhaps 95%.
+[JC] I think 100% of authorised personnel should be able to access the pool of tickets, the fit criterion I believe should be one of availability, authorised personal can access the ticket reallocation 99% of the time which allows a small 1% window for maintenance.
