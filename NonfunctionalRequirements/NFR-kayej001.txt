@@ -8,4 +8,6 @@ Comments: [M814-ModuleChair] Add comments below, making sure to include your ini
 [JC] The original functional requirement is not stated in the filename which effects the traceability.
 [JC] For the fit criterion I believe that 90% of users should select a default return reason, with 10% creating their own reason in addition to the time limit. This assumes that the functionality exists for them to tailor their return reason. 
 
+Comments: [SM] This is a 'usability and humanity' NFR. In my opinion, the fit criterion should focus on providing a comprehensive list of reasons for return along with a 'other' selection where the user can type the reason. The user can take a lot less or a lot more time on this screen as this is purely customer driven (they can go make tea while on this screen, you can't hurry them.)Probable fit criterion: at least 95% of users can select from a list of reasons provided and the remaining have the option of selecting 'other' option and typing their reason.
+
 
