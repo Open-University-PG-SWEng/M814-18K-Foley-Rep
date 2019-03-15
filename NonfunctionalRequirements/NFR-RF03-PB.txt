@@ -1,0 +1,11 @@
+REQ-ID: NFR-RF03-PB
+Description: The customers will be provided with accessible and easy to understand information about ticket return process and deadlines.
+Type: Non-Functional
+Rationale: To allow customers to get their refunds easily and to help with reallocation of tickets to reduce the number of empty seats.
+Fit Criterion: 90% of English and 70% of non-English speakers or readers should find the return process and deadlines easy to understand and follow.
+Originator: Polly Gray (Domestic Ticket Sales)
+Comments:
+[PB] Created new Non-Functional requirement for functional requirement RF03, which should support it,
+by reducing the number of invalid ticket return request, reducing the number of potential customer support requests
+and to help meet the goal of low number of empty seats.
+
