@@ -9,3 +9,4 @@ Comment: [karenJ] There is missing an attribute on the snow card.  I believe the
 be, the product shall provide the reasons for ticket returns in an easy to understand format. Rationale, to provide the information in a format that makes it easy for the client to identify patterns in ticket returns.
 Fit criterion, perhaps each day or every 24 hours would quantify the time period.
 Reject until and review once amended.
+[PB] This is not a non-functional requirement, because you specify required system functionality: "collect information about the reasons for ticket returns". I would redo it.

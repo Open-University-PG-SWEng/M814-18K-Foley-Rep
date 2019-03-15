@@ -1,11 +1,3 @@
-REQ-ID: 
-Description: 
-Type:
-Rationale:
-Fit Criterion:
-Originator:
-Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
-
 REQ-ID: NFR-RF07-LCM
 Description: The latency between a ticket return being confirmed and the user being notified will be low
 Type: 12
@@ -14,3 +6,4 @@ Rationale: The slow delivery of ticket return confirmations can lead to anxiety 
 Fit Criterion: The time between a ticket return being approved and the notification confirming this to the user leaving the JustTheTicket system shall be lower than 3 seconds for 95 percent of requests, measured on a daily basis.
 Originator: Laurie Clark-Michalek (Student)
 Comments: [lcm] Created NFR for FR RF07.
+[PB] I think you forgot to remove the original Rationale that you have copied. Other than that it looks good to me.

@@ -1,11 +1,3 @@
-REQ-ID: 
-Description: 
-Type:
-Rationale:
-Fit Criterion:
-Originator:
-Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
-
 REQ-ID: NFR-RF02-karenJ
 Description: The selection of the event shall be acknowledged quickly by the system.
 Type: 12
@@ -15,3 +7,6 @@ Originator: Karen Jakes (Project Manager)
 Comments: [karenJ] Created new NFR for functional requirement RF02.
 		  [PSHE] This is a fast fit criterion for a response time which is good for the user experience, however I think it could be more lenient
 		  as I believe it would be acceptable for users to wait 3-5 seconds between screens during the returns process.
+		  [PB] RE: [PSHE] , I think the fit criterion is on point, because long response times (3 to 5 seconds), would translate into bad customer experience. 
+		  Anything above 1 second is very noticable and hitting one second mark shouldn't be that hard.
+		  [PB] I think the rationale could be improved because it's lacking the "why?", as to what's the impact of this delay and why do we care.

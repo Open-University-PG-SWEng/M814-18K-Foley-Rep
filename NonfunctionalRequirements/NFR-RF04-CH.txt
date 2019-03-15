@@ -5,3 +5,4 @@ Rationale: To allow the client to proces patterns or trends for reasons behind m
 Fit Criterion: Eighty five percent of the products staff using this feature will be able to analyze the day/week and monthly statitics, to outline potential patterns.
 Originator: Christopher Hayes (Project Manager)
 Comments: [CH] Created new NFR for functional requirement RF04.
+[PB] That's not a non-functional requirement. The description indicates a specific required functionality "collate and store reasons". I would redo it.
