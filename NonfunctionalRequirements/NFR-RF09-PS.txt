@@ -1,8 +1,8 @@
 REQ-ID: NFR-RF09-PS
-Description: The product shall collect information about the reasons for ticket returns and supply it in an easy to understand format.
-Type: Non-Functional
+Description: The product shall provide the reasons for ticket returns and supply it in an easy to understand format.
+Type: 11 - Usability and Humanity
 Rationale: To make it easy for the client to identify patterns in ticket return reasons.
-Fit Criterion: Ninety percent of staff using this feature can analyse the day's results and determine any patterns in 30 minutes or less.
+Fit Criterion: Reasons are updated every 24 hours and ninety percent of staff using this feature can analyse the day's results and determine any patterns in 30 minutes or less.
 Originator: Polly Gray (Domestic Ticket Sales)
 Comments:
 Comment: [karenJ] There is missing an attribute on the snow card.  I believe the non functional requirement type is 11, usability and humanity.  The first part of the description is a functional requirement, to collect, perhaps the description could
