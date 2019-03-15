@@ -13,3 +13,4 @@ The rationale is good.  I would amend the ambiguities and pass.
 [PB] RE:[karenJ] - the 60 seconds doesn't refer to the system response time. It's the user journey time. 
 [PB] As to the 60 seconds user journey goal, this is very, very optimistic :) I would suggest 3 minutes to start with, and then I would adjust accordingly. Also I would suggest measuring 
 how many users actually drop off, during the whole process, to indicate if there are any major usuability probablems.
+Comment: [karenJ] Perhaps I mis-understood, my interpretation of 'initiate' a return was to click a button (which would take a second or so), not to go through the process of a return.  Perhaps the second initiate should be 'complete' the process within 60 seconds.

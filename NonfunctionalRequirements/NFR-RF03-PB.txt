@@ -8,4 +8,5 @@ Comments:
 [PB] Created new Non-Functional requirement for functional requirement RF03, which should support it,
 by reducing the number of invalid ticket return request, reducing the number of potential customer support requests
 and to help meet the goal of low number of empty seats.
-
+Comment: [karenJ] Add non-functional requirement type : 11 usability and humanity. Fit criterion: I might expect higher figures 95% English and 80% non-english as english is a common language, perhaps it could be further quantified with the percentage of complaints recieved should not exceed 5%.
+Suggestion for more details in the rationale, To enable customers to easily access and understand the ticket return process and eligibility criteria for the return (I'm assuming it will provide a notification or link to view the returns process) enabling a swift return.  Keeping the reallocation part.
