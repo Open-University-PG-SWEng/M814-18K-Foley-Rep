@@ -6,3 +6,7 @@ Fit Criterion: Ninety-five percent of the representative sample in the focus gro
 Originator: Joanna Stacey (Project Manager)
 Comments: [JS] Created a non-functional requirement related to RF01.
 [JC] I like this fit criterion it allow the developers to create a test case in advance of development and provides quantifiable metrics that allows a test to easily pass.
+Comment: [karenJ] Fit criterion: I can see where you are coming from with the focus group in that they are testing the product, but I believe it should refer to the customer, as this would be measurable in testing and moving forward.
+I would expect the response time of the system to be quicker than a minute, probably seconds.  I might write the fit criterion: 95% of customers initiating a ticket return from the inventory, shall successfully initiate the return within 3-5 seconds.
+Other improvements, in the description I would change the average customer to member of the public.  What is an average customer? It may be ambiguious.
+The rationale is good.  I would amend the ambiguities and pass.

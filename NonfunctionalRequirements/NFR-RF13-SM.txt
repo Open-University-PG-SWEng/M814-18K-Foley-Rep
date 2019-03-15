@@ -1,4 +1,4 @@
-REQ-ID: NFR-RF13-SM
+﻿REQ-ID: NFR-RF13-SM
 Description: The response to the customer’s query (list possible events for ticket purchase by date range) shall be prompt.
 Type: Non-Functional-Performance
 Rationale: The game sponsors wish to encourage customers to buy tickets to more than one event, fast response times can keep their interest piqued.
@@ -6,3 +6,5 @@ Fit criterion: The response time shall not exceed 2 seconds for 95 percent of qu
 Originator: Sonam Mishra (Project Manager)
 Comments: [SM] Created NFR for RF13
 [WH] For the response time, Is this measuring the time it takes the system to process the query or the time it takes to deliver the query results to the customer? It maybe difficult to normalize the time it takes to deliver results to the customer due to variations in the network quality and speeds for each individual session. 
+Comment: [karenJ] There is a missing an attribute on the snow card.  I believe the non functional requirement type is 12, performance.  Fit criterion: The customer would expect a quick response time, sorting by date is usually the click of a button.  
+Suggested revision, the list of possible events shall be returned within 2 seconds for 95 percent of the customers queries, and 3 seconds for the remainder.
