@@ -1,14 +1,23 @@
 REQ-ID: NFR-RF03-PB
 Description: The customers will be provided with accessible and easy to understand information about ticket return process and deadlines.
-Type: Non-Functional
-Rationale: To allow customers to get their refunds easily and to help with reallocation of tickets to reduce the number of empty seats.
-Fit Criterion: 90% of English and 70% of non-English speakers or readers should find the return process and deadlines easy to understand and follow.
+Type: 11 (Usability and Humanity)
+Rationale: To enable customers to easily access and understand the ticket return process and eligibility criteria for the return, and to help with reallocation of tickets to reduce the number of empty seats.
+Fit Criterion: 95% of English and 70% of non-English speakers or readers should find the return process and deadlines easy to understand and follow.
 Originator: Polly Gray (Domestic Ticket Sales)
 Comments:
 [PB] Created new Non-Functional requirement for functional requirement RF03, which should support it,
 by reducing the number of invalid ticket return request, reducing the number of potential customer support requests
 and to help meet the goal of low number of empty seats.
-Comment: [karenJ] Add non-functional requirement type : 11 usability and humanity. Fit criterion: I might expect higher figures 95% English and 80% non-english as english is a common language, perhaps it could be further quantified with the percentage of complaints recieved should not exceed 5%.
+[karenJ] Add non-functional requirement type : 11 usability and humanity. Fit criterion: I might expect higher figures 95% English and 80% non-english as english is a common language, perhaps it could be further quantified with the percentage of complaints recieved should not exceed 5%.
 Suggestion for more details in the rationale, To enable customers to easily access and understand the ticket return process and eligibility criteria for the return (I'm assuming it will provide a notification or link to view the returns process) enabling a swift return.  Keeping the reallocation part.
-Comment: [SM] This is a 'usability and humanity' non-functional requirement. I would agree with Karen J's comment about a higher percentage of comprehension for both English (95%) and non-English (90%)speakers. May I also suggest a 'select a language' button and the information displayed in multiple languages to aid the customers in reading and understanding information easily. Considering this website is going to be used internationally, surely this feature will be a given?
-Comment:[MVR] I agree fully with the higher figures 70% for non-english speakers are a bit low. Some broweser like Chrome have a built in translater function as well. Also how whould the test results be verified? Will a survey be included to complete part of the information about ticket return process?   
+[SM] This is a 'usability and humanity' non-functional requirement. I would agree with Karen J's comment about a higher percentage of comprehension for both English (95%) and non-English (90%)speakers. May I also suggest a 'select a language' button and the information displayed in multiple languages to aid the customers in reading and understanding information easily. Considering this website is going to be used internationally, surely this feature will be a given?
+[MVR] I agree fully with the higher figures 70% for non-english speakers are a bit low. Some broweser like Chrome have a built in translater function as well. Also how whould the test results be verified? Will a survey be included to complete part of the information about ticket return process?   
+[PB] I've updated the Eglish speakers metric, "type" attribute and the "rationale". 
+[PB] I think it's worth keeping in mind that the requirement spec is about the requirement (the "what?"), not about it's execution (the "how?"), as long as it's roughly doable.
+[PB] RE: [karenJ] - I wouldn't be too optimistic with non-English speakers' language comprehension skills, because we're talking about sports fans here, who are happy to go to an event abroad,
+whether they know the language or not. As to the English speakers, sure 95% might seem a good target. As to the complaints metric, I wouldn't combine the two,
+because complaints metric captures only people who are really, really upset and take the effort to actually make a complaint.
+[PB] RE: [SM] As to "'select a language' button", the requirement spec is about the requirement (the "what?"), not about it's execution (the "how?")
+[PB] RE: [MVR] - google translate rarely works with dynamic single page applications and it's translations are not that accurate, and as to the other comments, this spec is about the "what?",
+not about "how?", but the measurement is perfectly doable in multiple ways (there's at least 4 ways of doing it), via usability testing, before deployment, user journey monitoring with surveys or live support, or simply by asking
+for feedback after users submit their request or try to leave the page.

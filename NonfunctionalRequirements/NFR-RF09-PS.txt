@@ -9,3 +9,6 @@ be, the product shall provide the reasons for ticket returns in an easy to under
 Fit criterion, perhaps each day or every 24 hours would quantify the time period.
 Reject until and review once amended.
 [PB] This is not a non-functional requirement, because you specify required system functionality: "collect information about the reasons for ticket returns". I would redo it.
+[PB] Once again the "shall provide the reasons for ticket returns" is a functional requirement. The "supply it in an easy to understand format" is an actual non-functional requirement.
+Maybe you can just change it to "The product shall supply reasons for ticket returns in an easy to understand format.", which shifts the focus from "supply" requirement to "readability".
+
