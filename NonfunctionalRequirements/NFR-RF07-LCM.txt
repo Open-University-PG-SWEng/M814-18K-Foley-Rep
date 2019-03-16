@@ -1,9 +1,8 @@
 REQ-ID: NFR-RF07-LCM
 Description: The latency between a ticket return being confirmed and the user being notified will be low
 Type: 12
-Rationale: To initiate the return enabling the users to proceed to the next stage in the returns process (ticket selection), without delay.
 Rationale: The slow delivery of ticket return confirmations can lead to anxiety and poor user experience for the user. This may increase the load on support staff who must respond to user queries.
 Fit Criterion: The time between a ticket return being approved and the notification confirming this to the user leaving the JustTheTicket system shall be lower than 3 seconds for 95 percent of requests, measured on a daily basis.
 Originator: Laurie Clark-Michalek (Student)
 Comments: [lcm] Created NFR for FR RF07.
-[PB] I think you forgot to remove the original Rationale that you have copied. Other than that it looks good to me.
+[PB] I think you forgot to remove the original Rationale that you have copied. Other than that it looks good to me. [lcm: thanks! removed it now :) ]
