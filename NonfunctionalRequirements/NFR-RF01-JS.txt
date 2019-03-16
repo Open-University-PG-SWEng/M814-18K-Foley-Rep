@@ -18,3 +18,4 @@ how many users actually drop off, during the whole process, to indicate if there
 [JS] Revised the description and the fit criterion.
 Description original: The product shall make it easy for an average customer to initiate the return of tickets.
 Fit criterion original: Ninety-five percent of the representative sample in the focus group shall successfully initiate the ticket return process from the inventory, and seventy-five percent of those who are successful shall initiate the process within 60 seconds from when the inventory screen finishes loading.
+[MVR] I am not sure on the wording "ninety-five percent of the focus group representative" how many are in the group 1, 5? I like more specifics "nine out of ten" or if you really want ninety-five persent "nineteen out of twenty" 
