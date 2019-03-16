@@ -1,10 +1,19 @@
 REQ-ID: NFR-RF12-WH
 Description: The system will provide an simple interface that allows customers to browse lists events based on category.
 Type: 11 (Usability and Humanity)
-Rationale: Users should be able to easily browse and locate specific events of interest based on broad sport categories, an easy to navigate interface will provide a better user experience and potentially increase ticket sales. 
+Rationale: Users should be able to easily browse and locate specific events of interest based on broad sport categories, an easy to navigate interface will provide a better user experience and potentially increase ticket sales.
 Fit Criterion: Average users should be able to navigate to event listings in less than two minutes, using the fewest clicks/interactions as possible.
 Originator: Weston Hinton
 
 Comments: [JS] I think the phrase 'fewest clicks/interactions' needs to be made tangible/measurable, e.g. 3 clicks from main screen.
 [PB] as mentioned by [JS] "fewest clicks/interactions as possible" is not really measurable. We need to define some quantifiable target (number of some sorts that we aim for).
 [LCM] Be careful using the term average, as it can be rather vague. Choosing a strata or model customer can make it easier to work out if the criterion has been met or not
+
+REVISED POST COMMENTS
+
+REQ-ID: NFR-RF12-WH
+Description: The system will provide an simple interface that allows customers to browse lists events based on category.
+Type: 11 (Usability and Humanity)
+Rationale: Users should be able to easily browse and locate specific events of interest based on broad sport categories, an easy to navigate interface will provide a better user experience and potentially increase ticket sales.
+Fit Criterion: 95% of users in representative target group should be able to navigate to event listings in less than two minutes, using 5 or fewer clicks from the main user dashboard.
+Originator: Weston Hinton
