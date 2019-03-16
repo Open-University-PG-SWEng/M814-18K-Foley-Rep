@@ -5,8 +5,14 @@ Rationale: To initiate the return enabling the users to proceed to the next stag
 Fit Criterion: The response time of the system should take no longer than 0.75 seconds for 95 percent of users and no longer than 1 second for the remainder.
 Originator: Karen Jakes (Project Manager)
 Comments: [karenJ] Created new NFR for functional requirement RF02.
-		  [PSHE] This is a fast fit criterion for a response time which is good for the user experience, however I think it could be more lenient
-		  as I believe it would be acceptable for users to wait 3-5 seconds between screens during the returns process.
-		  [PB] RE: [PSHE] , I think the fit criterion is on point, because long response times (3 to 5 seconds), would translate into bad customer experience. 
-		  Anything above 1 second is very noticable and hitting one second mark shouldn't be that hard.
-		  [PB] I think the rationale could be improved because it's lacking the "why?", as to what's the impact of this delay and why do we care.
+[PSHE] This is a fast fit criterion for a response time which is good for the user experience, however I think it could be more lenient as I believe it would be acceptable for users to wait 3-5 seconds between screens during the returns process.
+[PB] RE: [PSHE] , I think the fit criterion is on point, because long response times (3 to 5 seconds), would translate into bad customer experience. Anything above 1 second is very noticable and hitting one second mark shouldn't be that hard.
+[PB] I think the rationale could be improved because it's lacking the "why?", as to what's the impact of this delay and why do we care.
+
+Comments: [karenJ] Revised non functional requirement as a result of comments recieved.
+Updated rationale: To initiate the return enabling the users to proceed to the next stage in the returns process (ticket selection), without delay.  
+Users would expect the selection of the event to be acknowledged immediately and the next page (ticket selection) to be displayed instantly, 
+as with most online purchases/returns, they will be accustomed to fast response times.  This is one of multiple stages in the returns process, 
+failure to facilitate it quickly may result in a lengthy process and complaints.
+Updated fit criterion based on my own thoughts to provide clarity: The customer shall be able to successfully select an event in one single action, 
+and the response time of the system should take no longer than 0.75 seconds for 95 percent of users and no longer than 1 second for the remainder.
