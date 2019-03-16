@@ -1,16 +1,20 @@
 REQ-ID: NFR-RF01-JS
-Description: The product shall make it easy for an average customer to initiate the return of tickets.
+Description: The ticket return process shall be easy to initiate by a customer browsing their purchased ticket inventory.
 Type: 11 Usability and Humanity
 Rationale: To encourage customers who no longer require the tickets to return them with ease, to make sure the tickets can be promptly re-allocated and prevent empty stadiums.
-Fit Criterion: Ninety-five percent of the representative sample in the focus group shall successfully initiate the ticket return process from the inventory, and seventy-five percent of those who are successful shall initiate the process within 60 seconds from when the inventory screen finishes loading.
+Fit Criterion: Ninety-five percent of the focus group representative of the potential customer demographic shall successfully initiate the ticket return process from the inventory. Seventy-five percent of those who successfully initiate the process shall do so within 15 seconds from the inventory screen loading.
 Originator: Joanna Stacey (Project Manager)
-Comments: [JS] Created a non-functional requirement related to RF01.
+Comments: 
+[JS] Created a non-functional requirement related to RF01.
 [JC] I like this fit criterion it allow the developers to create a test case in advance of development and provides quantifiable metrics that allows a test to easily pass.
-Comment: [karenJ] Fit criterion: I can see where you are coming from with the focus group in that they are testing the product, but I believe it should refer to the customer, as this would be measurable in testing and moving forward.
+[karenJ] Fit criterion: I can see where you are coming from with the focus group in that they are testing the product, but I believe it should refer to the customer, as this would be measurable in testing and moving forward.
 I would expect the response time of the system to be quicker than a minute, probably seconds.  I might write the fit criterion: 95% of customers initiating a ticket return from the inventory, shall successfully initiate the return within 3-5 seconds.
 Other improvements, in the description I would change the average customer to member of the public.  What is an average customer? It may be ambiguious.
 The rationale is good.  I would amend the ambiguities and pass.
 [PB] RE:[karenJ] - the 60 seconds doesn't refer to the system response time. It's the user journey time. 
 [PB] As to the 60 seconds user journey goal, this is very, very optimistic :) I would suggest 3 minutes to start with, and then I would adjust accordingly. Also I would suggest measuring 
 how many users actually drop off, during the whole process, to indicate if there are any major usuability probablems.
-Comment: [karenJ] Perhaps I mis-understood, my interpretation of 'initiate' a return was to click a button (which would take a second or so), not to go through the process of a return.  Perhaps the second initiate should be 'complete' the process within 60 seconds.
+[karenJ] Perhaps I mis-understood, my interpretation of 'initiate' a return was to click a button (which would take a second or so), not to go through the process of a return.  Perhaps the second initiate should be 'complete' the process within 60 seconds.
+[JS] Revised the description and the fit criterion.
+Description original: The product shall make it easy for an average customer to initiate the return of tickets.
+Fit criterion original: Ninety-five percent of the representative sample in the focus group shall successfully initiate the ticket return process from the inventory, and seventy-five percent of those who are successful shall initiate the process within 60 seconds from when the inventory screen finishes loading.
