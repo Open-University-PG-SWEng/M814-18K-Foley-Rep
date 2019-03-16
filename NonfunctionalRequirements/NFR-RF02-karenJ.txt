@@ -16,3 +16,4 @@ as with most online purchases/returns, they will be accustomed to fast response 
 failure to facilitate it quickly may result in a lengthy process and complaints.
 Updated fit criterion based on my own thoughts to provide clarity: The customer shall be able to successfully select an event in one single action, 
 and the response time of the system should take no longer than 0.75 seconds for 95 percent of users and no longer than 1 second for the remainder.
+Comments: [lcm]: Make sure you define over which window the percentiles should be calculated. If latency were to spike briefly, it could violate the constraint, whereas when measured over the course of a month the constraint could still be valid

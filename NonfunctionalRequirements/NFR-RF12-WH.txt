@@ -7,3 +7,4 @@ Originator: Weston Hinton
 
 Comments: [JS] I think the phrase 'fewest clicks/interactions' needs to be made tangible/measurable, e.g. 3 clicks from main screen.
 [PB] as mentioned by [JS] "fewest clicks/interactions as possible" is not really measurable. We need to define some quantifiable target (number of some sorts that we aim for).
+[LCM] Be careful using the term average, as it can be rather vague. Choosing a strata or model customer can make it easier to work out if the criterion has been met or not
