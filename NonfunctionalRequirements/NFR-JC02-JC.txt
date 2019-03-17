@@ -7,3 +7,4 @@ Originator: Jonathan Comer (Project Manager)
 Comments: [JC] New non-functional requirement created for JC02.
 Comments: [JS] I think this fit criterion is very difficult to measure - it's one of those cases when we'll know when it fails; if it's working - it may fail tomorrow. Maybe it would be a good idea to think of a few safeguards that can be verified, or results of a pen test.
 Comments: [kayej] I think the fit criterionis fair however could be improved with a metric ie pass 100% of card specific security (penitration) tests 
+Comments: [MG] I don't think the description is specifying the correct information. In the original requirements it does state that the payment system is handled by an existing system that the website will connect so it may be case of making sure that a connection to the system can be achieved 99 % of the time.
