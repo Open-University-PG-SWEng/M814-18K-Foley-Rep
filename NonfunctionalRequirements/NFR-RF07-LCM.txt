@@ -6,3 +6,4 @@ Fit Criterion: The time between a ticket return being approved and the notificat
 Originator: Laurie Clark-Michalek (Student)
 Comments: [lcm] Created NFR for FR RF07.
 [PB] I think you forgot to remove the original Rationale that you have copied. Other than that it looks good to me. [lcm: thanks! removed it now :) ]
+[MG] I think the fit criterion is ambiguous as it stands as it's measuring three things - The time between the request being approved and subsequent notification, then the time between receiving this and the user leaving the system. . You could probably drop the latter about leaving the system.
