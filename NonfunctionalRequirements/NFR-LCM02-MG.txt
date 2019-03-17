@@ -2,8 +2,8 @@ NFR-REQ-ID: 	NFR-LCM02
 Description:	Only authorised personnel shall have access to the pool of tickets for reallocation via the reallocation program	
 Type:		12 Performance
 Rationale:	To ensure that seats that have become available are managed and allocated consistently to customers on the waiting list for the customer reallocation program
-Fit Criterion:	100% of authorised users with permission to access thereallocation program shall be able to 99% of the time
-Originator:	Polly Gray (Domestic ticket sales)
+Fit Criterion:	100% of authorised users with permission to access the reallocation program shall be able to 99% of the time
+Originator:	Marc Greenwood
 Comments:	[MG] Assumption that 80% is an acceptable value for stakeholders to be satisfied that the functionality is working as expected.
 [PSHE] 80% is quite a low acceptable value for access to the program - I think it should be higher as this feature should work a significant majority of the time,
 perhaps 95%.
