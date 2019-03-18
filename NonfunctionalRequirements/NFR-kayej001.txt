@@ -1,8 +1,8 @@
-REQ-ID: Kayej001
+REQ-ID:NFR-MG001-Kayej001
 Description: The reason for return will be easy to document 
-Type: Non-functional 
-Rationale: the user will need to be given options to make it easy to choose why the ticket is being returned 
-Fit Criterion: the user will able to pick a reason for return in less than 90 seconds 
+Type: 11- Non-functional 
+Rationale: the user will need to be given options to make it easy to choose why the ticket is being returned including an option for other reasons 
+Fit Criterion:95% of users will be able to select one of the default return options and the user will able to pick a reason for return in less than 90 seconds. the remaining 5% will use the other option to describe their own reason for return 
 Originator: Polly Gray (Domestic Ticket Sales)
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 [JC] The original functional requirement is not stated in the filename which effects the traceability.
@@ -10,4 +10,4 @@ Comments: [M814-ModuleChair] Add comments below, making sure to include your ini
 
 Comments: [SM] This is a 'usability and humanity' NFR. In my opinion, the fit criterion should focus on providing a comprehensive list of reasons for return along with a 'other' selection where the user can type the reason. The user can take a lot less or a lot more time on this screen as this is purely customer driven (You can't hurry them. However, a session timeout may kick in to counter long period of inactivity.)Probable fit criterion: at least 95% of users can select from a list of reasons provided and the remaining have the option of selecting 'other' option and typing their reason.
 
-
+Comments:[KJ] I have looked at the previous comments and changed the Requirment ID to reflect the functional requirment also updated the type and modified the fit criterion and Rationale to make more clear the options for the customer 
