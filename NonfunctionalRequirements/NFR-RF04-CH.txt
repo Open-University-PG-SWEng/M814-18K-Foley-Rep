@@ -15,5 +15,5 @@ REQ-ID: NFR-RF04-CH
 Description: The product shall provide the reasons for returns of multiple tickets and supply it in a understandable format for pattern processing.
 Type: Non-Functional
 Rationale: To allow the client to proces patterns or trends for reasons behind multiple ticket-returns.
-Fit Criterion: Eighty five percent of the products staff using this feature will be able to analyze the day/week and monthly statitics, to outline potential patterns.
-Type: Eighty five percent of the products staff using this feature will be able to analyze the day/week and monthly statitics, to outline potential patterns within 2 minutes of analyzing the data.
+Fit Criterion: Eighty five percent of the products staff using this feature will be able to analyze the day/week and monthly statitics, to outline potential patterns within 2 minutes of analyzing the data.
+Originator: Christopher Hayes (Project Manager)
