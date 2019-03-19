@@ -17,3 +17,17 @@ failure to facilitate it quickly may result in a lengthy process and complaints.
 Updated fit criterion based on my own thoughts to provide clarity: The customer shall be able to successfully select an event in one single action, 
 and the response time of the system should take no longer than 0.75 seconds for 95 percent of users and no longer than 1 second for the remainder.
 Comments: [lcm]: Make sure you define over which window the percentiles should be calculated. If latency were to spike briefly, it could violate the constraint, whereas when measured over the course of a month the constraint could still be valid
+
+FINAL NFR:
+
+REQ-ID: NFR-RF02-karenJ
+Description: The selection of the event shall be acknowledged quickly by the system.
+Type: 12
+Rationale: To initiate the return enabling the users to proceed to the next stage in the returns process (ticket selection), without delay.  
+Users would expect the selection of the event to be acknowledged immediately and the next page (ticket selection) to be displayed instantly, 
+as with most online purchases/returns, they will be accustomed to fast response times.  This is one of multiple stages in the returns process, 
+failure to facilitate it quickly may result in a lengthy process and complaints.
+Fit Criterion: The customer shall be able to successfully select an event in one single action, 
+and the response time of the system should take no longer than 0.75 seconds for 95 percent of users and no longer than 1 second for the remainder.
+Originator: Karen Jakes (Project Manager).
+Comments: [karenJ] Reposted complete NFR.
