@@ -21,3 +21,4 @@ because complaints metric captures only people who are really, really upset and 
 [PB] RE: [MVR] - google translate rarely works with dynamic single page applications and it's translations are not that accurate, and as to the other comments, this spec is about the "what?",
 not about "how?", but the measurement is perfectly doable in multiple ways (there's at least 4 ways of doing it), via usability testing, before deployment, user journey monitoring with surveys or live support, or simply by asking
 for feedback after users submit their request or try to leave the page.
+[CH] Following on from the translation - basing this off the idea that the user will be using a browser with a built-in translator function is a stretch that often or not a they could be using an outdated version of: IE, Chrome, etc; or even another browser without the intended functionality. 
