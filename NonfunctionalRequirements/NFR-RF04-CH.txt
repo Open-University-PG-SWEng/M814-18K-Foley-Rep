@@ -7,3 +7,13 @@ Originator: Christopher Hayes (Project Manager)
 Comments: [CH] Created new NFR for functional requirement RF04.
 [PB] That's not a non-functional requirement. The description indicates a specific required functionality "collate and store reasons". I would redo it.
 Comments: I agree that this is not a non functional requirment. I would improve the requirement by making it measurable eg the speed at which the information should be processed. the product should be able to look for potential patterns within 2 minutes of analysing the data. 
+Comments: [CH] I agree with the comments. The phrasing that I originally used to describe this 'non-functional requirement' was not the correct terminology. A revisied NFR has been posted below to reflect the advised changes.
+
+REVISED POST COMMENTS
+
+REQ-ID: NFR-RF04-CH
+Description: The product shall provide the reasons for returns of multiple tickets and supply it in a understandable format for pattern processing.
+Type: Non-Functional
+Rationale: To allow the client to proces patterns or trends for reasons behind multiple ticket-returns.
+Fit Criterion: Eighty five percent of the products staff using this feature will be able to analyze the day/week and monthly statitics, to outline potential patterns.
+Type: Eighty five percent of the products staff using this feature will be able to analyze the day/week and monthly statitics, to outline potential patterns within 2 minutes of analyzing the data.
