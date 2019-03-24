@@ -1,0 +1,9 @@
+REQ-ID: NFR-RF08-GD
+Description: The re-allocation process must be performant.
+Type: 12 - Performance
+Rationale: Unallocated tickets could lead to increased amounts of empty seats but because
+           the re-allocation process is batched the system must perform adequately well in
+           order to be useful.
+Fit Criterion: The system must be able to handle at least 1000 ticket re-allocations per day.
+Originator: Polly Gray (Domestic Ticket Sales)
+Comments: [GD] Created NFR-RF08-GD based on RF08.
