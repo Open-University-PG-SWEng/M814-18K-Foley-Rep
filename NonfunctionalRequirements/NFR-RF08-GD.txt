@@ -4,6 +4,8 @@ Type: 12 - Performance
 Rationale: Unallocated tickets could lead to increased amounts of empty seats but because
            the re-allocation process is batched the system must perform adequately well in
            order to be useful.
-Fit Criterion: The system must be able to handle at least 1000 ticket re-allocations per day.
+Fit Criterion: The system must be able to handle at least 1000 ticket re-allocations per run.
 Originator: Polly Gray (Domestic Ticket Sales)
-Comments: [GD] Created NFR-RF08-GD based on RF08.
+Comments:
+- [GD] Created NFR-RF08-GD based on RF08.
+- [GD] Changed the fit criteria from per day to per run as this decouples the scheduling from the actual execution (we could run this once a week or once an hour depending on demand so the change allows for these extensions without changing its meaning)
